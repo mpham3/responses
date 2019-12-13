@@ -2,17 +2,22 @@
 
 
 .wrapper {
-    width: 100%;
+    max-width: 100%;
+    
 }
 
 .img-banner {
     display:flex;
+    max-width: 100%;
+    height: auto;
+
  
 
 }
 
 .img-info {
     width: 100%;
+
 }
 
 .img-info h2 {
@@ -37,7 +42,7 @@
 
 .img-me {
     width: 100%;
-    float: left;
+    position: fixed;
 }
 
 
